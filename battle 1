@@ -1,0 +1,32 @@
+<div class="circle2"></div>
+<div class="circle1"></div>
+<style>
+  body{
+    margin:0;
+    background-color:#0E2E2C;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .circle2{
+    position:absolute;
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background-color:#998235;
+    box-shadow:0 0 0 12px #0E2E2C,
+      0 0 0 20px #F3AC3C,
+      0 0 0 34px #0E2E2C,
+      0 0 0 40px #F3AC3C;
+  }
+  .circle1{
+    position:absolute;
+    width: 40px;
+    height:40px;
+    border-radius:50%;
+    box-shadow:0 0 0 8px #0E2E2C,
+              0 0 0 20px #F3AC3C,
+      0 0 0 30px #0E2E2C;
+    background: #F3AC3C;
+  }
+</style>

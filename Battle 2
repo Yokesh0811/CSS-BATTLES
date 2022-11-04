@@ -1,0 +1,60 @@
+<div class="square square1"></div>
+<div class="square square2"></div>
+<div class="square square3"></div>
+<div class="circle circle1"></div>
+<div class="circle circle2"></div>
+<div class="circle circle3"></div>
+<style>
+body{
+    margin:0;
+    position:relative;
+    background-color: #62306D; }
+  .square3{
+    top:100px;
+    left:150px;
+  }
+  .square1{
+    top:200px;
+    left:50px;
+  }
+  .square2{
+    top:200px;
+    left:250px;
+  }
+  .square{
+    position:absolute;
+    background-color: #F7EC7D;
+    width:100px;
+    height:200px
+  }
+  .circle3{
+    position:absolute;
+    top:70px;
+    left:170px;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    background: #AA445F;
+    box-shadow: 0 0 0 20px #E38F66;
+  }
+  .circle2{
+    position:absolute;
+    top:170px;
+    left:270px;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    background: #E38F66;
+    box-shadow: 0 0 0 20px #AA445F; 
+  }
+  .circle1{
+    position:absolute;
+    top:170px;
+    left:70px;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    background: #E38F66;
+    box-shadow: 0 0 0 20px #AA445F;
+  }
+</style>

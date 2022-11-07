@@ -1,0 +1,40 @@
+<div class="lock lock1">
+  <div class="circle circle1"></div>
+</div>
+<div class="lock lock2">
+  <div class="circle circle2"></div>
+</div>
+<style>
+  .lock{
+    position:relative;
+    background-color:#AA445F;
+    width:100px;
+    height:150px;
+    border-radius:50px;
+  }
+  .lock1{
+    top:-25px;
+  }
+  .lock2{
+    background-color:#E38F66;
+    bottom:-25px;
+  }
+  body{
+    background-color:#62306D;
+    padding:50px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+  }
+  .circle2{
+    top:0;
+  }
+  .circle{
+    position:absolute;
+    bottom:0;
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    border-radius:50%;
+  }
+</style>

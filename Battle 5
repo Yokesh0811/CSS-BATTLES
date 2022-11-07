@@ -1,0 +1,43 @@
+<div class="circle"></div>
+<div class="inside"></div>
+<div class="rect"></div>
+<div class="small"></div>
+<style>
+  .small{
+    position:absolute;
+    top:50px;
+    left:150px;
+    background-color: #6592CF;
+    width:50px;
+    height:100px;
+  }
+  .rect{
+    position:absolute;
+    top:50px;
+    left:100px;
+    background-color: #243D83;
+    width:50px;
+    height:100px;
+  }
+  .inside{
+    position:absolute;
+    background-color:#6592CF;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+  }
+  body{
+    position:relative;
+    margin:0;
+    background-color: #6592CF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    background: #243D83;
+  }
+</style>

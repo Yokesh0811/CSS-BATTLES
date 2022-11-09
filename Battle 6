@@ -1,0 +1,46 @@
+<div class="frame">
+  <div class="inner left"></div>
+  <div class="inner right"></div>
+  <div class="sun"></div>
+</div>
+<style>
+  body{
+    margin:0;
+    background-color:#191919;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .sun{
+    background-color:#FFF58F;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    position:absolute;
+    top:90px;
+    left:45px;
+}
+  .inner{
+    z-index:5;
+    background-color:#E08027;
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    position:absolute;
+    bottom:-100px;
+    left:-100px;
+}
+  .right{
+    bottom:-100px;
+    left:50px;
+    background-color:#824B20;
+  }
+  .frame{
+    overflow:hidden;
+    position:relative;
+    width: 150px;
+    height: 200px;
+    background: #F2AD43;
+    border-radius:80px 80px 20px 20px;
+  }
+</style>

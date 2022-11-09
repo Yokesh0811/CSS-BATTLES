@@ -23,3 +23,7 @@ BATTLE 4:
 BATTLE 5:
 
 ![battle 5](https://user-images.githubusercontent.com/99379363/200353787-82dda8be-e329-45fc-bb93-ab8ab79ca8b5.png)
+
+BATTLE 6:
+
+![battle 6](https://user-images.githubusercontent.com/99379363/200746378-4f9f9f99-9cff-4937-b3ca-8a7ee06e0294.png)
